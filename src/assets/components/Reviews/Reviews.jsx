@@ -61,7 +61,7 @@ const Reviews = () => {
 
   return (
     <section id="section7" className="reviews-section">
-      <h2>Lo que dicen nuestros huespedes</h2>
+      {/* <h2>Lo que dicen nuestros huespedes</h2>
       <div className="reviews-gallery">
         <button className="nav-button prev" onClick={handlePrev}>
           &lt;
@@ -78,7 +78,7 @@ const Reviews = () => {
         <button className="nav-button next" onClick={handleNext}>
           &gt;
         </button>
-      </div>
+      </div> */}
     </section>
   );
 };

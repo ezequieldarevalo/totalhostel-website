@@ -26,16 +26,16 @@ const Rooms = () => {
         '/assets/escondida2.jpg',
       ],
     },
-    {
-      id: 3,
-      imageUrl: '/assets/laVistaAlPatio.jpg',
-      title: '5 camas',
-      description: 'Habitacion de cinco camas con ventana al patioy estanteria. ',
-      gallery: [
-        '/assets/laVistaAlPatio.jpg',
-        '/assets/camaLamparaCozy.jpg',
-      ],
-    },
+    // {
+    //   id: 3,
+    //   imageUrl: '/assets/laVistaAlPatio.jpg',
+    //   title: '5 camas',
+    //   description: 'Habitacion de cinco camas con ventana al patioy estanteria. ',
+    //   gallery: [
+    //     '/assets/laVistaAlPatio.jpg',
+    //     '/assets/camaLamparaCozy.jpg',
+    //   ],
+    // },
     
   ];
 
