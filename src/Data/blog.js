@@ -1,5 +1,5 @@
 const pics ={
-    sanlo: "src/assets/sanlo.jpg",
+    sanlo: "/assets/sanlo.jpg",
 };
 
 

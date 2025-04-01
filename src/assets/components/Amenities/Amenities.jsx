@@ -8,27 +8,27 @@ const Amenities = () => {
     
     {
       id: 1,
-      imageUrl: 'src/assets/comedor2.png',
+      imageUrl: '/assets/comedor2.png',
       title: 'Comedor',
       description: 'Comedor amplio con dos mesas y barra desayunadora. ',
       gallery: [
-        'src/assets/comedor3.png',
-        'src/assets/comedor1.jpg',
+        '/assets/comedor3.png',
+        '/assets/comedor1.jpg',
       ],
     },
     {
       id: 2,
-      imageUrl: 'src/assets/duchas2.png',
+      imageUrl: '/assets/duchas2.png',
       title: 'Duchas',
       description: 'Tres duchas independientes con vestidor privado, excelente presión de agua y temperatura optima y constante garantizada. ',
       gallery: [
-        'src/assets/duchas.jpg',
-        'src/assets/vestidorDucha.png',
+        '/assets/duchas.jpg',
+        '/assets/vestidorDucha.png',
       ],
     },
     {
       id: 3,
-      imageUrl: 'src/assets/cocina.jpg',
+      imageUrl: '/assets/cocina.jpg',
       title: 'Cocina compartida',
       description: 'Cocina con horno, heladera, utensillos, ollas e insumos basicos. ',
       gallery: [
@@ -36,7 +36,7 @@ const Amenities = () => {
     },
     {
       id: 4,
-      imageUrl: 'src/assets/patioNoche.jpg',
+      imageUrl: '/assets/patioNoche.jpg',
       title: 'Patio Interno',
       description: 'Amplio patio interno con cesped, equipado con asador y baño . ',
       gallery: [
@@ -44,22 +44,22 @@ const Amenities = () => {
     },
     {
       id: 5,
-      imageUrl: 'src/assets/bañoInterno2.png',
+      imageUrl: '/assets/bañoInterno2.png',
       title: 'Baños compartidos',
       description: 'Dos baños con tocador, inodoro, mingitorio, espejo y lavamanos . ',
       gallery: [
-        'src/assets/bañoTocador.jpg',
-        'src/assets/tocador.jpg',
+        '/assets/bañoTocador.jpg',
+        '/assets/tocador.jpg',
       ],
     },
     {
       id: 6,
-      imageUrl: 'src/assets/EnchufeUSBlampara.jpg',
+      imageUrl: '/assets/EnchufeUSBlampara.jpg',
       title: 'Enchufes USB',
       description: 'Enchufes con socket USB, USB C y tipo "I" (Argentina/Australia/NuevaZelanda) . ',
       gallery: [
-        'src/assets/EnchufeUSBlampara.jpg',
-        'src/assets/enchufeUSB.jpg',
+        '/assets/EnchufeUSBlampara.jpg',
+        '/assets/enchufeUSB.jpg',
       ],
     },
   ];

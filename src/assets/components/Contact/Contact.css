@@ -6,7 +6,7 @@
     min-height: 100vh;
     padding: 20px;
     background-color: white;
-    background-image: url(src/assets/aaa.png);
+    background-image: url(/assets/aaa.png);
     text-align: center;
   }
   

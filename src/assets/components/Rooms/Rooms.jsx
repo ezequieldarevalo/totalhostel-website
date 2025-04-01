@@ -7,33 +7,33 @@ const Rooms = () => {
   const galleryItems = [
     {
       id: 1,
-      imageUrl: 'src/assets/habitacion1.0.jpeg',
+      imageUrl: '/assets/habitacion1.0.jpeg',
       title: '10 camas',
       description: 'Habitacion para diez personas: Nuestra habitacion mas amplia, cuenta con cinco cama cuchetas, aire acondicionado, enchufes con puerto usb, ventanal a patio interno, escritorio y estantería',
       gallery: [
-        'src/assets/habitacion1.jpeg',
-        'src/assets/habitacion1.1.jpeg',
-        'src/assets/EnchufeUSBlampara.jpg',
+        '/assets/habitacion1.jpeg',
+        '/assets/habitacion1.1.jpeg',
+        '/assets/EnchufeUSBlampara.jpg',
       ],
     },
     {
       id: 2,
-      imageUrl: 'src/assets/habitacion2.jpeg',
+      imageUrl: '/assets/habitacion2.jpeg',
       title: '6 camas',
       description: 'Habitacion para seis personas: Esta habitacion de seis camas cuenta con aire acondicionado, enchufes con puerto usb y C y escritorio',
       gallery: [
-        'src/assets/camaLamparaCozy.jpg',
-        'src/assets/escondida2.jpg',
+        '/assets/camaLamparaCozy.jpg',
+        '/assets/escondida2.jpg',
       ],
     },
     {
       id: 3,
-      imageUrl: 'src/assets/laVistaAlPatio.jpg',
+      imageUrl: '/assets/laVistaAlPatio.jpg',
       title: '5 camas',
       description: 'Habitacion de cinco camas con ventana al patioy estanteria. ',
       gallery: [
-        'src/assets/laVistaAlPatio.jpg',
-        'src/assets/camaLamparaCozy.jpg',
+        '/assets/laVistaAlPatio.jpg',
+        '/assets/camaLamparaCozy.jpg',
       ],
     },
     

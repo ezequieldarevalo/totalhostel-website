@@ -1,6 +1,6 @@
 const pics ={
-    hab1: "src/assets/habitacion1.jpeg",
-    hab2: "src/assets/habitacion2.jpeg",
+    hab1: "/assets/habitacion1.jpeg",
+    hab2: "/assets/habitacion2.jpeg",
 }
 
 const habitaciones = [
