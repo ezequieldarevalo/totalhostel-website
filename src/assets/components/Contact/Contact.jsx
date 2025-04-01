@@ -11,7 +11,26 @@ const Contact = () => {
   return (
     <section id='section6' className="contact-section">
       <h2>Contacto</h2>
-      <form onSubmit={handleSubmit} className="contact-form">
+      <section className="contact-info" style="padding: 2rem; text-align: center;">
+        <h2 style="font-size: 2rem; margin-bottom: 1rem;">Contacto</h2>
+
+        <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">
+          📱 <strong>Whatsapp:</strong>
+          <a href="https://wa.me/5493874643443" target="_blank" style="color: #25D366;">
+            +54 9 387 464 3443
+          </a>
+        </p>
+
+        <p style="font-size: 1.2rem;">
+          📷 <strong>Instagram:</strong>
+          <a href="https://instagram.com/totalhostelsalta" target="_blank" style="color: #E1306C;">
+            @totalhostelsalta
+          </a>
+        </p>
+      </section>
+      {/* <form onSubmit={handleSubmit} className="contact-form">
+
+      
         <div className="form-group">
           <label htmlFor="name">Nombre</label>
           <input type="text" id="name" name="name" placeholder="escriba su nomre" required />
@@ -29,7 +48,7 @@ const Contact = () => {
           <textarea id="consult" name="consult" placeholder="Escriba su consulta aqui..." required />
         </div>
         <button type="submit" className="submit-button">Submit</button>
-      </form>
+      </form> */}
     </section>
   );
 };
