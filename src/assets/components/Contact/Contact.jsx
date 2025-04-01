@@ -10,24 +10,47 @@ const Contact = () => {
 
   return (
     <section id='section6' className="contact-section">
-      <h2>Contacto</h2>
-      <section className="contact-info" style="padding: 2rem; text-align: center;">
-        <h2 style="font-size: 2rem; margin-bottom: 1rem;">Contacto</h2>
+      <h2 style={{
+        fontSize: "2.5rem",
+        marginBottom: "2rem",
+        color: "#224A56"
+      }}>
+        Contacto
+      </h2>
 
-        <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">
-          📱 <strong>Whatsapp:</strong>
-          <a href="https://wa.me/5493874643443" target="_blank" style="color: #25D366;">
-            +54 9 387 464 3443
-          </a>
-        </p>
+      <div style={{ fontSize: "1.5rem", marginBottom: "1.2rem" }}>
+        <span role="img" aria-label="WhatsApp">📱</span>
+        <strong style={{ marginRight: "0.5rem" }}>Whatsapp:</strong>
+        <a
+          href="https://wa.me/5493874643443"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "black",
+            textDecoration: "none",
+            fontWeight: "bold"
+          }}
+        >
+          +54 9 387 464 3443
+        </a>
+      </div>
 
-        <p style="font-size: 1.2rem;">
-          📷 <strong>Instagram:</strong>
-          <a href="https://instagram.com/totalhostelsalta" target="_blank" style="color: #E1306C;">
-            @totalhostelsalta
-          </a>
-        </p>
-      </section>
+      <div style={{ fontSize: "1.5rem" }}>
+        <span role="img" aria-label="Instagram">📷</span>
+        <strong style={{ marginRight: "0.5rem" }}>Instagram:</strong>
+        <a
+          href="https://instagram.com/totalhostelsalta"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "black",
+            textDecoration: "none",
+            fontWeight: "bold"
+          }}
+        >
+          @totalhostelsalta
+        </a>
+      </div>
       {/* <form onSubmit={handleSubmit} className="contact-form">
 
       
