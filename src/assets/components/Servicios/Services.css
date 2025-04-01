@@ -1,0 +1,78 @@
+.services-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .services-section h2 {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(34, 74, 86);
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    width: 23rem;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-card {
+      width: 150px;
+      padding: 15px;
+    }
+  
+    .service-icon {
+      font-size: 2.5rem;
+    }
+  
+    .service-title {
+      font-size: 1.1rem;
+    }
+  
+    .service-description {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-card {
+      width: 100%;
+      max-width: 200px;
+    }
+  }

@@ -1,0 +1,83 @@
+
+.home {
+  color: rgb(34, 74, 86);
+  width: 100%;
+  height: 100vh;
+  margin-top: 0%;
+  position: relative;
+  background-image: url('src/assets/Banner.png'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  }
+  
+  .home-content {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+  }
+  
+  .home-title {
+    font-size: 4rem;
+    margin-left: 8rem;
+    font-family: 'generic';
+    font-weight: 400;
+    font-style: normal;
+  }
+  .home-description {
+    font-family: "montserrat", sans-serif;
+    color:rgb(34, 74, 86);
+    font-size: 20px;
+    margin-left: 8rem;
+  }
+
+button {
+  background-color: rgb(34, 74, 86);
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-size: 22px;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border-style: none;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 425px) {
+  .home-title {
+    font-size: 3rem;
+    margin-left: 4rem;
+  }
+  .home-description {
+    margin-left: 4rem;
+  }
+  button{
+    margin-left:4rem;
+  }
+}
+@media (max-width: 375px) {
+  .home-title {
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+  .home-description {
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+  button{
+    margin-left:2rem;
+  }
+}

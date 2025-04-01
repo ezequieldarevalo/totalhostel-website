@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'generic';
+    src: local('generic'), url(./Fonts/Generic-G20-FR-Classic-DEMO.otf) format('opentype');
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+}
+  
