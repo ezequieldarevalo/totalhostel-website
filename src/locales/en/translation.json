@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "amenities": "Amenities",
+    "services": "Services",
+    "location": "Location",
+    "contact": "Contact",
+    "reviews": "Reviews",
+    "blog": "Blog"
+  },
+  "home": {
+    "text1": "In the heart of the City of Salta",
+    "text2": "A place to recover and rest",
+    "book": "Book"
+  },
+  "rooms": {
+    "title": "Rooms",
+    "10beds": {
+      "title": "10 beds",
+      "description": "Room for ten people: Our largest room, featuring five bunk beds, air conditioning, power outlets with USB ports, a window facing the inner patio, a desk, and shelving"
+    },
+    "6beds": {
+      "title": "6 beds",
+      "description": "Room for six people: This six-bed room has air conditioning, power outlets with USB and Type-C ports, and a desk"
+    }
+  },
+  "amenities": {
+    "title": "Amenities",
+    "diningRoom": {
+      "title": "Dining Room",
+      "description": "Spacious dining area with two tables and a breakfast bar."
+    },
+    "showers": {
+      "title": "Showers",
+      "description": "Three private showers with individual dressing areas, excellent water pressure, and guaranteed optimal, consistent temperature."
+    },
+    "sharedKitchen": {
+      "title": "Shared Kitchen",
+      "description": "Kitchen equipped with oven, fridge, utensils, pots, and basic supplies."
+    },
+    "internalPatio": {
+      "title": "Inner Patio",
+      "description": "Spacious inner patio with grass, equipped with a grill and a bathroom."
+    },
+    "sharedBathrooms": {
+      "title": "Shared Bathrooms",
+      "description": "Two bathrooms with vanity, toilet, urinal, mirror, and sink."
+    },
+    "usbConnections": {
+      "title": "USB Outlets",
+      "description": "Sockets with USB, USB-C, and type 'I' (Argentina/Australia/New Zealand) connections."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "wiFi": {
+      "title": "Wi-Fi",
+      "description": "Free internet connection throughout the hostel."
+    },
+    "airConditioning": {
+      "title": "Air Conditioning",
+      "description": "Hot and cold air in all rooms."
+    },
+    "laundry": {
+      "title": "Laundry",
+      "description": "Service available for an additional fee."
+    },
+    "showers": {
+      "title": "Spacious Showers with Dressing Area",
+      "description": "We have the most comfortable showers, each with its own dressing area, good water pressure, and guaranteed endless hot water."
+    },
+    "beds": {
+      "title": "New Beds",
+      "description": "With new mattresses and fresh bed linen always ready to ensure the best rest."
+    },
+    "usbConectivity": {
+      "title": "USB Connectivity",
+      "description": "Sockets installed with type 'I' outlet and USB and USB-C ports."
+    }
+  },
+  "location": {
+    "title": "Location"
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "blog": {
+    "title": "Blog",
+    "quebrada": {
+      "title": "Quebrada de San Lorenzo",
+      "description": "14 minutes from the city center, the Quebrada de San Lorenzo is the most beautiful and accessible place to walk through the Salta jungle, following the river's course. You can have lunch, afternoon tea, and dinner at the classic restaurant 'El Duende de la Quebrada'. You can get there by car or by bus line 4E 'San Lorenzo Chico'. This is the shortest and most direct route to the Quebrada. The bus can be taken four blocks from Total Hostel at Zuviría 598, on the corner with Rivadavia. The trip lasts about 30 minutes. We recommend visiting on weekdays for a quieter experience, or on weekends to meet people. There are also grills for rent where you can cook your own food or use public tables to enjoy a meal."
+    },
+    "localTransport": {
+      "title": "Local Transport",
+      "description": "The public transportation in the city is the 'SAETA' bus. To board it, you need a card loaded with credit at one of the city's recharge points, such as: 25 de Mayo 151, Alvarado 960, ATM Alto Noa Shopping, ATM Bs As and San Martín, among others. More information about recharge methods and routes is available on SAETA’s website: https://saetasalta.com.ar/saetaw/venta-recarga. There’s also a mobile app on the Play Store. The fare varies depending on the destination, with most rides costing $890."
+    },
+    "subte": {
+      "title": "Underground tunnels?",
+      "description": "In August 2024, an investigative commission was formed to explore tunnels supposedly built under the streets of the city during its founding period, used for the movement of weapons and people during the independence wars. It is estimated they connect historic buildings across at least 700 square meters of the historic center."
+    },
+    "history": {
+      "title": "Historical Visit",
+      "description": "The Province of Salta was one of the first provinces in the Republic of Argentina, founded in 1580. This explains the colonial architecture in the city center. Fortunately, today you can visit some of the most important historical landmarks like the Historical Museum of the North, located in front of Plaza 9 de Julio on Caseros Street 549, two blocks from Total Hostel. The museum features paintings, carriages, furniture, pianos, and belongings of historical figures such as Martín Miguel de Güemes, an important Argentine political figure who fought in the 'Guerra Gaucha' against Spanish royalists for Argentina's independence."
+    },
+    "guemesMuseum": {
+      "title": "Güemes Museum",
+      "description": "Located at España 730, this building once housed the Royal Treasury of the Salta del Tucumán Province in the late 18th century, and it was the residence of Martín Miguel de Güemes and his family. Today, it operates as the Güemes Museum, open to the public Tuesday to Sunday from 11:00 a.m. to 7:00 p.m."
+    },
+    "regionalFoods": {
+      "title": "Regional Food at La Tacita",
+      "description": "In front of the San Francisco Church-Convent, there’s a hidden little restaurant-café where you can enjoy typical Salta food with a direct view of the church."
+    }
+  }
+}

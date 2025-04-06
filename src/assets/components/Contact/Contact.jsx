@@ -1,7 +1,9 @@
 import React from 'react';
 import './Contact.css';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const handleSubmit = (e) => {
     e.preventDefault();
     // Para manejar el submit
@@ -15,7 +17,7 @@ const Contact = () => {
         marginBottom: "2rem",
         color: "#224A56"
       }}>
-        Contacto
+        {t('contact.title')}
       </h2>
 
       <div style={{ fontSize: "1.5rem", marginBottom: "1.2rem" }}>

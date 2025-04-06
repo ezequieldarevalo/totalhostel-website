@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import './Amenities.css';
+import { useTranslation } from 'react-i18next';
 
 const Amenities = () => {
   const [selectedRoom, setSelectedRoom] = useState(null);
+  const { t } = useTranslation();
 
   const galleryItems = [
     
     {
       id: 1,
       imageUrl: '/assets/comedor2.png',
-      title: 'Comedor',
-      description: 'Comedor amplio con dos mesas y barra desayunadora. ',
+      title: t('amenities.diningRoom.title'),
+      description: t('amenities.diningRoom.description'),
       gallery: [
         '/assets/comedor3.png',
         '/assets/comedor1.jpg',
@@ -19,8 +21,8 @@ const Amenities = () => {
     {
       id: 2,
       imageUrl: '/assets/duchas2.png',
-      title: 'Duchas',
-      description: 'Tres duchas independientes con vestidor privado, excelente presión de agua y temperatura optima y constante garantizada. ',
+      title: t('amenities.showers.title'),
+      description: t('amenities.showers.description'),
       gallery: [
         '/assets/duchas.jpg',
         '/assets/vestidorDucha.png',
@@ -29,24 +31,24 @@ const Amenities = () => {
     {
       id: 3,
       imageUrl: '/assets/cocina.jpg',
-      title: 'Cocina compartida',
-      description: 'Cocina con horno, heladera, utensillos, ollas e insumos basicos. ',
+      title: t('amenities.sharedKitchen.title'),
+      description: t('amenities.sharedKitchen.description'),
       gallery: [
       ],
     },
     {
       id: 4,
       imageUrl: '/assets/patioNoche.jpg',
-      title: 'Patio Interno',
-      description: 'Amplio patio interno con cesped, equipado con asador y baño . ',
+      title: t('amenities.internalPatio.title'),
+      description: t('amenities.internalPatio.description'),
       gallery: [
       ],
     },
     {
       id: 5,
       imageUrl: '/assets/bañoInterno2.png',
-      title: 'Baños compartidos',
-      description: 'Dos baños con tocador, inodoro, mingitorio, espejo y lavamanos . ',
+      title: t('amenities.sharedBathrooms.title'),
+      description: t('amenities.sharedBathrooms.description'),
       gallery: [
         '/assets/bañoTocador.jpg',
         '/assets/tocador.jpg',
@@ -55,8 +57,8 @@ const Amenities = () => {
     {
       id: 6,
       imageUrl: '/assets/EnchufeUSBlampara.jpg',
-      title: 'Enchufes USB',
-      description: 'Enchufes con socket USB, USB C y tipo "I" (Argentina/Australia/NuevaZelanda) . ',
+      title: t('amenities.usbConnections.title'),
+      description: t('amenities.usbConnections.description'),
       gallery: [
         '/assets/EnchufeUSBlampara.jpg',
         '/assets/enchufeUSB.jpg',

@@ -2,9 +2,11 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import './Nav.css';
+import { useTranslation } from 'react-i18next';
 
 const Nav = () => {
-
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (lng) => i18n.changeLanguage(lng);
   // que el nav tenga bg white cuando se scrollea
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,16 +37,24 @@ const Nav = () => {
 
   return (
       <div className={`navbar-container ${isScrolled ? 'scrolled' : ''}`} >
-        <div className="navbar-logo"> <a href='#section1'>TOTAL</a></div>
+      <div className="navbar-logo">
+        <a href='#section1'>TOTAL</a>
+        <span className="lang-container">
+          <button className="without-styles-button" onClick={() => changeLanguage('es')}>🇦🇷</button>
+          <button className="without-styles-button" onClick={() => changeLanguage('en')}>🇺🇸</button>
+          <button className="without-styles-button" onClick={() => changeLanguage('he')}>🇮🇱</button>
+        </span>
+      </div>
         <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-          <a href="#section1">Home</a>
-          <a href="#section2">Habitaciones</a>
-          <a href="#section3">Amenities</a>
-          <a href="#section4">Servicios</a>
-          <a href="#section5">Ubicacion</a>
-          <a href="#section6">Contacto</a>
-          <a href="#section7">Reseñas</a>
-          <a href="#section8">Blog</a>
+        <a href="#section1">{t('nav.home')}</a>
+        <a href="#section2">{t('nav.rooms')}</a>
+        <a href="#section3">{t('nav.amenities')}</a>
+        <a href="#section4">{t('nav.services')}</a>
+        <a href="#section5">{t('nav.location')}</a>
+        <a href="#section6">{t('nav.contact')}</a>
+        <a href="#section7">{t('nav.reviews')}</a>
+        <a href="#section8">{t('nav.blog')}</a>
+
         </div>
         <button className="navbar-toggle" onClick={toggleMenu}>
           ☰

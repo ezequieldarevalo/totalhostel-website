@@ -1,45 +1,47 @@
 import React from 'react';
 import './Services.css';
+import { useTranslation } from 'react-i18next';
 
 // Icons can be imported from a library like FontAwesome or use emojis for simplicity
 const Services = () => {
+  const { t } = useTranslation();
 
   const services = [
     {
       id: 1,
       icon: '📶', // Wi-Fi icon
-      title: 'Wi-Fi',
-      description: 'Conexión gratuita a internet en todo el Hostel.',
+      title: t('services.wiFi.title'),
+      description: t('services.wiFi.description'),
     },
     {
       id: 2,
       icon: '❄️', // Air Conditioning icon
-      title: 'Aire Acondicionado',
-      description: 'Aire frio y caliente en todas las habitaciones.',
+      title: t('services.airConditioning.title'),
+      description: t('services.airConditioning.description'),
     },
     {
       id: 3,
       icon: '🧼', // Laundry icon
-      title: 'Lavandería',
-      description: 'Servicio disponible con tarifa adicional.',
+      title: t('services.laundry.title'),
+      description: t('services.laundry.description'),
     },
     {
       id: 4,
       icon: '🚿', // Shower icon
-      title: 'Duchas amplias con vestidor',
-      description: 'Tenemos las duchas mas cómodas, cada una con vestidor propio, buena presion de agua y agua caliente que nunca se termina garantizado.',
+      title: t('services.showers.title'),
+      description: t('services.showers.description'),
     },
     {
       id: 5,
       icon: '🛏️', // Bed icon
-      title: 'Camas Nuevas',
-      description: 'Con colchones nuevos y ropa de cama siempre fresca, lista para garantizar el mejor descanso .',
+      title: t('services.beds.title'),
+      description: t('services.beds.description'),
     },
     {
       id: 6,
       icon: '🔌', // Enchufe
-      title: 'Conectividad USB',
-      description: 'Enchufes instalados con socket "I" y puerto usb y usbC',
+      title: t('services.usbConectivity.title'),
+      description: t('services.usbConectivity.description'),
     },
   ];
 

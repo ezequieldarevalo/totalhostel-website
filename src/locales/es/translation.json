@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "rooms": "Habitaciones",
+    "amenities": "Comodidades",
+    "services": "Servicios",
+    "location": "Ubicación",
+    "contact": "Contacto",
+    "reviews": "Reseñas",
+    "blog": "Blog"
+  },
+  "home":{
+    "text1": "En el corazon de la Ciudad de Salta ",
+    "text2": "Un lugar para reponerse y descansar",
+    "book": "Reservar"
+  },
+  "rooms":{
+    "title": "Habitaciones",
+    "10beds": {
+      "title": "10 camas",
+      "description": "Habitacion para diez personas: Nuestra habitacion mas amplia, cuenta con cinco cama cuchetas, aire acondicionado, enchufes con puerto usb, ventanal a patio interno, escritorio y estantería"
+    },
+    "6beds": {
+      "title": "6 camas",
+      "description": "Habitacion para seis personas: Esta habitacion de seis camas cuenta con aire acondicionado, enchufes con puerto usb y C y escritorio"
+    }
+  },
+  "amenities": {
+    "title": "Amenities",
+    "diningRoom": {
+      "title": "Comedor",
+      "description": "Comedor amplio con dos mesas y barra desayunadora. "
+    },
+    "showers": {
+      "title": "Duchas",
+      "description": "Tres duchas independientes con vestidor privado, excelente presión de agua y temperatura optima y constante garantizada. "
+    },
+    "sharedKitchen": {
+      "title": "Cocina compartida",
+      "description": "Cocina con horno, heladera, utensillos, ollas e insumos basicos. "
+    },
+    "internalPatio": {
+      "title": "Patio interno",
+      "description": "Amplio patio interno con cesped, equipado con asador y baño . "
+    },
+    "sharedBathrooms": {
+      "title": "Baños compartidos",
+      "description": "Dos baños con tocador, inodoro, mingitorio, espejo y lavamanos . "
+    },
+    "usbConnections": {
+      "title": "Enchufes USB",
+      "description": "Enchufes con socket USB, USB C y tipo 'I' (Argentina/Australia/NuevaZelanda) . "
+    }
+  },
+  "services":{
+    "title": "Servicios",
+    "wiFi":{
+      "title": "Wi-Fi",
+      "description": "Conexión gratuita a internet en todo el Hostel."
+    },
+    "airConditioning": {
+      "title": "Aire Acondicionado",
+      "description": "Aire frio y caliente en todas las habitaciones."
+    },
+    "laundry": {
+      "title": "Lavandería",
+      "description": "Servicio disponible con tarifa adicional."
+    },
+    "showers": {
+      "title": "Duchas amplias con vestidor",
+      "description": "Tenemos las duchas mas cómodas, cada una con vestidor propio, buena presion de agua y agua caliente que nunca se termina garantizado."
+    },
+    "beds": {
+      "title": "Camas Nuevas",
+      "description": "Con colchones nuevos y ropa de cama siempre fresca, lista para garantizar el mejor descanso."
+    },
+    "usbConectivity": {
+      "title": "Conectividad USB",
+      "description": "Enchufes instalados con socket 'I' y puerto usb y usbC"
+    }
+  },
+  "location": {
+    "title": "Ubicación"
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "blog":{
+    "title": "Blog",
+    "quebrada":{
+      "title": "Quebrada de San Lorenzo",
+      "description": "A 14 minutos del centro de la ciudad, La quebrada de San Lorenzo es el lugar mas bonito y accesible para caminar por senderos en la yunga Salteña rodeando el curso del río. En la quebrada podes Almorzar, merendar y cenar en el clasico restaurant 'El Duende de la quebrada' Se puede llegar en auto y en Colectivos de la Linea 4E 'San Lorenzo Chico' (Hay otros colectivos a San Lorenzo pero el 4E es el recorrido mas corto y directo a la quebrada) Este colectivo se puede abordar a 4 cuadras de Total Hostel en calle Zuviria 598 - Esquina Rivadavia entre otras paradas cercanas, el viaje dura 30 minutos.  Total Hostel recomienda asistir en dias laborales para disfrutar a solas y fines de semana para compartir con gente. En la quebrada tambien hay una seccion con parrillas alquilables para llevar alimentos para asar o simplemente disfrutar una comida preparada en una de las mesas publicas"
+    },
+    "localTransport": {
+      "title": "Transporte Local",
+      "description": "El transporte publico de la ciudad es el colectivo 'SAETA' Para abordarlo se requiere una tarjeta cargada con crédito en alguna de los puntos de recarga de la ciudad como por ejemplo: 25 de Mayo 151, Alvarado 960, ATM Alto Noa Shoping, ATM Bs As y San Martin entr otras, Mas informacion sobre Metodos de carga y recorridos disponible en la pagina de SAETA: https://saetasalta.com.ar/saetaw/venta-recarga Tambien hay una aplicacion disponible para movil en la playstore. El costo del pasaje varia segun el destino, siendo el costo de la mayoria de los viajes $890 pesos."
+    },
+    "subte": {
+      "title": "¿Tuneles subterraneos?",
+      "description": "En Agosto de 2024 se conformó la comision investigadora para la exploracion de tuneles que habrían sido construidos bajo las calles de la Ciudad durante la epoca de la fundacion para el movimiento de armas y personas durante las batallas por la independencia. Se estima que conectan edificios historicos a lo largo y ancho de al menos 700mts cuadrados del casco historico."
+    },
+    "history": {
+      "title": "Visitar Historia",
+      "description": "La Provincia de Salta fue una de las primeras provincias de la Republica de Argentina y su fundacion data del año 1580. A esto se debe la arquitectura colonial del centro de la ciudad. Afortunadamente hoy se puede acceder a algunas de los monumentos historicos mas importantes como el Museo Historico del Norte, ubicado frente a la plaza 9 ed julio sobre la Calle Caseros 549 A dos cuadras de Total Hostel, . El museo cuenta con cuadros, carruajes, muebles, pianos y pertenencias de figuras historicas como Martin Miguel de Güemes, destacado politico Argentino que luchó en la 'Guerra Gaucha' contra los Realistas Españoles por la Independencia de Argentina."
+    },
+    "guemesMuseum": {
+      "title": "Museo Güemes",
+      "description": "Ubicado en calle España 730, se encuentra el edificio donde funcionó la Tesorería Real de la Intendencia de Salta del Tucumán hacia fines del siglo XVIII, y donde vivió Martín Miguel de Güemes junto a su familia. Hoy funciona el museo Güemes, Abierto al público de Martes a Domingo de 11:00 a 19:00 hs."
+    },
+    "regionalFoods": {
+      "title": "Comida Regional en La Tacita",
+      "description": "Frente a la Iglesia convento San Francisco, se encuentra escondido un pequeño restaurant-café donde podes encontrar comida típica salteña con vista directa a la Iglesia."
+    }
+  }
+}
