@@ -76,7 +76,7 @@ const Amenities = () => {
 
   return (
     <div id='section3'>
-    <h2> Amenities </h2>
+    <h2> {t('amenities.title')} </h2>
 
     <div className="gallery-container">
       {galleryItems.map((item) => (

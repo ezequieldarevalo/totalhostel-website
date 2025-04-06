@@ -48,7 +48,7 @@ const Services = () => {
   return (
     <div id='section4'>
     <div className="services-section">
-      <h2>Servicios</h2>
+        <h2>{t('services.title')}</h2>
       <div className="services-container">
         {services.map((service) => (
           <div key={service.id}  className="service-card" >
