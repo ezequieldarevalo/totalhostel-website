@@ -42,7 +42,6 @@ const Nav = () => {
         <span className="lang-container">
           <button className="without-styles-button" onClick={() => changeLanguage('es')}>🇦🇷</button>
           <button className="without-styles-button" onClick={() => changeLanguage('en')}>🇺🇸</button>
-          <button className="without-styles-button" onClick={() => changeLanguage('he')}>🇮🇱</button>
         </span>
       </div>
         <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>

@@ -12,7 +12,7 @@ const Home = () => {
           <p className="home-description">{t('home.text1')}<br></br></p>
           <div className="button">
           <button> 
-            <a href={`https://booking.totalhostel.com.ar/${i18n.language}`}> {t('home.book')} </a>
+            <a href={`https://booking.totalhostel.com.ar/${i18n.language}/hostels/total-hostel-salta`}> {t('home.book')} </a>
           </button>
         </div>
         </div>
