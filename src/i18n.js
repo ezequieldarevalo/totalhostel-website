@@ -19,8 +19,10 @@ i18n
   .init({
     resources,
     fallbackLng: 'es',
+    supportedLngs: ['es', 'en'],
+    nonExplicitSupportedLngs: true,
     interpolation: {
-      escapeValue: false, // React ya hace esto
+      escapeValue: false,
     },
   });
 
