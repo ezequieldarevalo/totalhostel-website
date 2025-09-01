@@ -46,4 +46,7 @@ i18n
 // por las dudas, si el detector ya fijó es-419, lo corregimos al iniciar
 i18n.on('initialized', () => {
   const fixed = normalizeLocale(i18n.language);
-  if (i18n.lan
+  if (i18n.language !== fixed) i18n.changeLanguage(fixed);
+});
+
+export default i18n;
